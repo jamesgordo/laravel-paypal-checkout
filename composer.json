@@ -1,0 +1,19 @@
+{
+    "name": "jamesgordo/laravel-paypal-checkout",
+    "description": "Simple Laravel Paypal Checkout Package",
+    "type": "library",
+    "authors": [
+        {
+            "name": "James Gordo",
+            "email": "hello@jamesgordo.com"
+        }
+    ],
+    "require": {
+        "paypal/paypal-checkout-sdk": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "JamesGordo\\LaravelPaypalCheckout\\": "src/app/"
+        }
+    }
+}
